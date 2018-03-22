@@ -1,0 +1,36 @@
+{
+  "Access-Control-Allow-Origin": "*",
+  "Access-Control-Allow-Methods": "OPTIONS, POST, GET, PUT, DELETE",
+  "Access-Control-Allow-Headers": "Origin, X-Requested-With, Content-Type, Accept, Authorization",
+
+  "database": {
+    "host": "localhost",
+    "user": "migration",
+    "password" : "f00b4r",
+    "database": "crm",
+    "driver": "mysql",
+    "multipleStatements": true
+  },
+
+  "env": {
+    "NODE_TLS_REJECT_UNAUTHORIZED": 0
+  },
+
+  "https": {
+    "cert": "/Users/danielgarnder/.ssh/safety.crt",
+    "key": "/Users/danielgarnder/.ssh/safety.key"
+  },
+
+  "jwt": {
+    "public_key": "-----BEGIN PUBLIC KEY-----\nMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDUnWH41ruQfoaC/WgpmiwpDoAf\nm482MA1zsFQe2wEUAZsMsh4U+sf83GW54gFwQUzTJufj13EM1GD4ZSMDXSk8HfIt\nM9g8yZXI13IrCE5xQsGQQc/p1ypSUwqgYdSvlXtDKWRtN9EH9pFp3UVz0Um3LlPy\nLeh4RbzUnoSP/xNSKQIDAQAB\n-----END PUBLIC KEY-----",
+    "algorithms": [ "RS256" ]
+  },
+
+  "log_level": "debug",
+
+  "server": {
+    "hostname": "localhost",
+    "port": 3333,
+    "protocol": "https:"
+  }
+}

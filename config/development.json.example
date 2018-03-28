@@ -5,9 +5,9 @@
 
   "database": {
     "host": "localhost",
-    "user": "migration",
-    "password" : "f00b4r",
-    "database": "crm",
+    "user": "app",
+    "password" : "password",
+    "database": "home",
     "driver": "mysql",
     "multipleStatements": true
   },
@@ -22,7 +22,7 @@
   },
 
   "jwt": {
-    "public_key": "-----BEGIN PUBLIC KEY-----\nMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDUnWH41ruQfoaC/WgpmiwpDoAf\nm482MA1zsFQe2wEUAZsMsh4U+sf83GW54gFwQUzTJufj13EM1GD4ZSMDXSk8HfIt\nM9g8yZXI13IrCE5xQsGQQc/p1ypSUwqgYdSvlXtDKWRtN9EH9pFp3UVz0Um3LlPy\nLeh4RbzUnoSP/xNSKQIDAQAB\n-----END PUBLIC KEY-----",
+    "public_key": "-----BEGIN PUBLIC KEY-----  -----END PUBLIC KEY-----",
     "algorithms": [ "RS256" ]
   },
 

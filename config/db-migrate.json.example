@@ -1,0 +1,18 @@
+{
+  "prod": {
+    "host": "domain",
+    "user": "username",
+    "password" : "password",
+    "database": "XXX",
+    "driver": "mysql",
+    "multipleStatements": true
+  },
+  "dev": {
+    "host": "localhost",
+    "user": "migration",
+    "password" : "password",
+    "database": "XXX",
+    "driver": "mysql",
+    "multipleStatements": true
+  }
+}

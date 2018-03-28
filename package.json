@@ -4,7 +4,8 @@
   "description": "backend server for home management app",
   "main": "src/server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node src/server.js",
+    "postinstall": "db-migrate up --config config/db-migrate.json --migrations-dir src/migrations"
   },
   "repository": {
     "type": "git",

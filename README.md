@@ -14,7 +14,3 @@
 * The repo also contains a development.json.exampele file which should be used to create a real development.json config file
 * `npm i` will run all db migrations and install all node packages
 * `node src/server.js`
-
-## For running a static site
-* `cd .sites/<somestaticsite>`
-* `node src/server.js`

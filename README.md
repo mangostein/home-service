@@ -11,7 +11,7 @@
 * Create a db user for the application with SELECT, INSERT, UPDATE, DELETE privileges
 `CREATE USER 'app'@'localhost' IDENTIFIED BY 'password';`
 `GRANT SELECT,INSERT,UPDATE,DELETE ON *.* TO 'app'@'localhost';`
-* This repo contains a db-migrate.json.example which should be used to create a db-migrate.json config file which contains db connection info for the database migrator (you will need to run `npm install -g db-migrate` before the db-migrate postinstall will work)
+* This repo contains a db-migrate.json.example which should be used to create a db-migrate.json config file which contains db connection info for the database migrator (you will need to run `npm install db-migrate-mysql`, `npm install -g db-migrate` and `npm install -g db-migrate-mysql` before the db-migrate postinstall will work)
 * The repo also contains a development.json.exampele file which should be used to create a real development.json config file
 * `npm i` will run all db migrations and install all node packages
 * `node src/server.js`

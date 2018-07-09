@@ -8,7 +8,4 @@ module.exports = function(app) {
     .then((results) => res.json(results))
     .catch((err) => ErrorHandler.respondWithError(res, err));
   });
-  app.get("/test", function(req, res) {
-    res.send("test! test!")
-  });
 }

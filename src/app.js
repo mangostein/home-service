@@ -17,4 +17,5 @@ module.exports = function(app) {
   app.disable('etag');
 
   require('./routes/example')(app);
+  require('./routes/build')(app);
 }

@@ -4,3 +4,4 @@ config/*
 !config/development.json.example
 !config/db-migrate.json.example
 npm-debug.log
+package-lock.json

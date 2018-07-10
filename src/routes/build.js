@@ -9,4 +9,8 @@ module.exports = function(app) {
     app.get('/', function(req, res) {
       res.sendFile('index.html', { root:  rootLocation + '/client/build' });
     });
+
+    app.get('/styles.css', function(req, res) {
+      res.sendFile('style.css', { root:  rootLocation + '/client/build' });
+    });
 }
